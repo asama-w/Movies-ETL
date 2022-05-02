@@ -19,7 +19,7 @@ To create the data pipelines by performing Extract, Transform, Load or ETL proce
 ## Process Descriptions
 
 ### 1. Extract
-+ The movies data from three raw datasets which are in JSON format and csv files respectively will be read and stored in the DataFrame:
++ The movies data from three raw datasets which are in JSON format (from Wikipedia) and csv files (from Kaggle), respectively, will be read and stored in the DataFrame:
   + Wikipedia (in JSON format): a list of movies from 1990 to 2018.
   + Kaggle (in csv files): one dataset contains a ratings data from MovieLens, which has over 20 million reviews, and another dataset of their movie information.
 + Code (Deliverable 1): [ETL_function_test.ipynb](https://github.com/asama-w/Movies-ETL/blob/main/ETL_function_test.ipynb)
